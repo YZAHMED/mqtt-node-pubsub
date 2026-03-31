@@ -109,6 +109,16 @@ node sender.js
 
 ---
 
+## Current Status (2026-03-31)
+
+- **Repo contents:** `sender.js`, `receiver.js`, `cipher-decipher.js`, `package.json`, `README.md`.
+- **Local functionality:** The publisher (`sender.js`) and subscriber (`receiver.js`) run locally against an MQTT broker; basic publish/subscribe flows are implemented.
+- **Known gaps / next steps:** configure broker URL/credentials (currently using a public/default broker), add automated tests, add CI, and provide message persistence/analytics.
+- **How to try:** run `npm install`, start `node receiver.js` in one terminal and `node sender.js` in another to see messages delivered.
+
+
+---
+
 ## Key Characteristics
 
 - Real-time communication without polling  
